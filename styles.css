@@ -1,0 +1,135 @@
+.navbar {
+   /* position: fixed;
+   top: 0;
+   right: 0;
+   left: 0; */
+   /* z-index: 500; */
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: var(--size-30);
+   font-weight: 700;
+   display: grid;
+   grid-template-columns: 1fr 4fr 3fr 1fr;
+   grid-row: 3;
+   row-gap: var(--size-10);
+   /* row-gap: var(--size-30); */
+   padding: var(--size-16);
+   padding-top: var(--size-25);
+   /* border: 2px solid blue; */
+}
+
+             /* Row One */
+
+.l1 {color: dodgerblue;}
+.l2 {color: red;}
+.l3 {color: gold;}
+.l4 {color: var(--cornflowerblue);}
+.l5 {color: forestgreen;}
+.l6 {color: red;}
+
+.search-field {
+   height: var(--size-40);
+   /* margin-top: -5px; */
+   border: 1px solid var(--lightest-grey);
+   border-radius: 100px;
+   box-shadow: 3px 4px 2px var(--lightest-grey);
+   color: var(--light-grey);
+   padding-left: 20px;
+}
+
+.q-text {
+   color: var(--black);
+   font-size: var(--size-16);
+   padding-top: var(--size-10);
+}
+
+.sf-end {
+   margin-top: 5px;
+   font-size: var(--size-25);
+   padding-left: var(--size-60);
+   /* padding-left: var(--size-450); */
+}
+
+.search-field > span {
+   float: left;
+}
+
+.right-side {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   column-gap: var(--size-10);
+   gap: var(--size-10);
+   margin-top: 0;
+   font-size: var(--size-20);
+   float: left;
+   /* border: 2px solid green; */
+}
+
+.rs-icons {
+   margin-top: 5px;
+}
+
+             /* Row Two */
+
+.nav-row2-container {
+   grid-column: 2;
+   margin-top: var(--size-10);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: var(--size-16);
+   color: var(--light-grey);
+}
+
+/* .nav-row2 {
+   padding-right: var(--size-10);
+} */
+
+.myspace {
+   padding-right: var(--size-10);
+}
+
+.myspace2 {
+   padding-right: 0;
+   margin-right: 0;
+}
+
+.myspace3 {
+   padding-left: 0;
+   margin-left: 0;
+}
+
+.nav-row3-container {
+   grid-row: 3;
+   margin-top: 0;
+   grid-column: 1 / 9;
+   border-top: 2px solid var(--lightest-grey);
+}
+
+.mytools {
+   padding-left: var(--size-55);
+   /* margin-left: 0; */
+}
+
+
+
+/* ---------------------------------- */
+
+.navbar.sticky {
+   background: var(--white);
+   box-shadow: 0px 0px 20px rgba(48, 63, 100, 0.2);
+}
+
+.navbar.sticky .navbar-toggler span,
+.navbar.sticky .navbar-brand {
+   color: var(--font-color-dark);
+}
+
+.nav-link a {
+   color: var(--white);
+   font-size: 0.8125rem;
+   font-weight: 600;
+   font-family: "Hind", sans-serif;
+   /* text-transform: uppercase; */
+   margin-right: var(--size-40);
+   line-height: var(--size-20);
+}
+

@@ -1,0 +1,7 @@
+Clarification on exercise requirements
+
+     I am just starting on the "google.com Search result page" Exercise in the Advanced HTML & CSS Module. The first line says that the page I create will have the "format" of a google search result page.
+     * Does the page need to be functional or just a representation of the page?
+     * The 2nd requirement says, "Include the navigation at the bottom to go to "next" page."
+        Should the "next" page navigation also be functional and, if so, should I also create a 2nd
+        results page for the link to take you to?
