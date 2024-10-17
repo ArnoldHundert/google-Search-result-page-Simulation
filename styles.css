@@ -5,7 +5,6 @@
    display: grid;
    grid-template-columns: 1fr 4fr 3fr 1fr;
    grid-template-rows: repeat(auto-fill, 1fr);
-   /* grid-row: 3; */
    row-gap: var(--size-10);
    padding: var(--size-16);
    padding-top: var(--size-25);
@@ -23,7 +22,6 @@
 
 .search-field {
    height: var(--size-40);
-   /* margin-top: -5px; */
    border: 1px solid var(--lightest-grey);
    border-radius: 100px;
    box-shadow: 3px 4px 2px var(--lightest-grey);
@@ -141,16 +139,25 @@
    margin-top: var(--size-20);
 }
 
-.nav-row4 {
+            /* 4th Row */
+
+.second-answer {
    grid-row: 5;
+   grid-column: 2;
+   padding-top: var(--size-10);
+}
+
+
+.nav-row4 {
+   grid-row: 6;
    grid-column: 2;
    border-top: 2px solid var(--lightest-grey);
 }
 
-             /* 4th Row */
+             /* 5th Row */
 
 .people-also-ask {
-   grid-row: 6;
+   grid-row: 7;
    grid-column: 2;
    margin-top: var(--size-40);
    font-size: var(--size-20);
@@ -158,56 +165,34 @@
    border-bottom: 2px solid var(--lightest-grey);
    padding-bottom: var(--size-10);
 }
-
-             /* 5th Row */
-
-.p-a-a-q1 {
-   grid-row: 7;
-   grid-column: 2;
-   margin-top: var(--size-5);
-   font-size: var(--size-20);
-   font-weight: 50;
-   border-bottom: 2px solid var(--lightest-grey);
-   padding-bottom: var(--size-10);
-   padding-top: 0;
-}
-
-.position-drop-down-arrow {
-   position: absolute;
-   grid-row: 7;
-   grid-column: 5;
-   right: var(--size-640);
-   margin-top: -15px;
-   /* border: 2px solid black; */
-}
-
-             /* 5th Row */
-
-.p-a-a-q1 {
-   grid-row: 7;
-   grid-column: 2;
-}
-
+             
              /* 6th Row */
 
-.p-a-a-q2 {
+.p-a-a-q1 {
    grid-row: 8;
    grid-column: 2;
 }
-
+             
              /* 7th Row */
 
-.p-a-a-q3 {
+.p-a-a-q2 {
    grid-row: 9;
    grid-column: 2;
- }
-
+}
+             
              /* 8th Row */
 
+.p-a-a-q3 {
+grid-row: 10;
+grid-column: 2;
+}
+
+             /* 9th Row */
+
 .p-a-a-q4 {
-   grid-row: 10;
+   grid-row: 11;
    grid-column: 2;
- }
+}
 
 .p-a-a-q-common {
    margin-top: var(--size-5);
@@ -227,5 +212,121 @@
    /* border: 2px solid black; */
 }
 
+             /* 10th Row */
 
+.third-answer {
+   grid-row: 12;
+   grid-column: 2;
+   margin-top: var(--size-40);
+}
+
+             /* 11th Row */
+
+.fourth-answer {
+   grid-row: 13;
+   grid-column: 2;
+   margin-top: var(--size-10);
+}
+
+             /* 12th Row */
+
+.fifth-answer {
+   grid-row: 14;
+   grid-column: 2;
+   margin-top: var(--size-10);
+}
+
+             /* 13th Row */
+
+.sixth-answer {
+   grid-row: 15;
+   grid-column: 2;
+   margin-top: var(--size-10);
+}
+
+             /* 14th Row */
+
+.seventh-answer {
+   grid-row: 16;
+   grid-column: 2;
+   margin-top: var(--size-10);
+}
+
+             /* 15th Row */
+
+.eighth-answer {
+   grid-row: 17;
+   grid-column: 2;
+   margin-top: var(--size-10);
+}
+
+             /* 16th Row */
+
+.nineth-answer {
+   grid-row: 18;
+   grid-column: 2;
+   margin-top: var(--size-10);
+}
+
+             /* 17th Row */
+
+.tenth-answer {
+   grid-row: 19;
+   grid-column: 2;
+   margin-top: var(--size-10);
+}
+
+             /* 18th Row */
+
+.page-bottom-container {
+   grid-row: 20;
+   grid-column: 2;
+   margin-top: var(--size-50);
+   text-align: center;
+   /* border: 2px solid var(--cornflowerblue); */
+}
+
+.page-bottom-container > .page-bottom {
+   margin-top: var(--size-20);
+   /* border: 2px solid red; */
+}
+
+.mygap {
+   padding-left: var(--size-20);
+}
+
+             /* 19th Row */
+
+.p-b-row2-container {
+   grid-row: 21;
+   grid-column: 2;
+   font-size: var(--size-16);
+   text-align: center;
+   margin-top: -32px;
+   /* border: 2px solid blueviolet; */
+}
+
+.p-b-row2 {
+   margin-top: var(--size-20);
+   /* border: 2px solid green; */
+}
+
+.p-b-row2-color {
+   color: var(--cornflowerblue);
+   padding-left: var(--size-14);
+}
+
+.mygap2 {
+   position: absolute;
+   right: var(--size-725);
+   /* margin-left: var(--size-100); */
+}
+
+
+.nav-row3 {
+   grid-row: 27;
+   /* margin-top: -14px; */
+   grid-column: 1 / 9;
+   border-top: 2px solid var(--lightest-grey);
+}
 
